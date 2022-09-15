@@ -1,0 +1,21 @@
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main()
+{
+    int ano;
+    
+    printf("Informe o ano de nascimento!\n");
+    scanf("%d", &ano);
+    if (ano <=1913){
+    printf("Descanse em paz, Voçê ja não pode mais votar\n");
+    }
+        if (ano <=2002 && ano >=1914){
+        printf("Voçê ja pode votar!");
+        }
+            if (ano >=2002){ printf("voçê ainda não pode votar");
+            }
+    return 0;
+}
